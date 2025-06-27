@@ -14,11 +14,11 @@
 
 .subscribe_box_left h2{
     font-size: 3rem;
-    line-height: 0;
+    line-height: 1.2;
+
 }
 
 .subscribe_box p{
-
     font-size: 1.2rem;
 }
 
@@ -71,11 +71,12 @@
     font-size: 2rem;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 768px){
     .subscribe_box{
         width: 90%;
         grid-template-columns: 1fr;
         gap: 4rem;
+
     }
     .subscribe_box_left_input{
         width: 100%;
@@ -85,9 +86,10 @@
     .subscribe_box_left h2{
         font-size: 2rem;
     }
+   
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
     .subscribe_box{
         width: 90%;
         

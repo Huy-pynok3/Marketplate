@@ -38,6 +38,7 @@ const Subscribe = () => {
             alt="get update"
             height={600}
             width={800}
+            layout="responsive"
           />
         </div>
       </div>

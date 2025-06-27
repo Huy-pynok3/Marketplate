@@ -31,6 +31,7 @@ const NFTCard = () => {
               alt="NFT images"
               width={600}
               height={600}
+              layout="responsive"
               className={Style.NFTCard_box_img_img}
             />
           </div>

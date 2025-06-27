@@ -81,4 +81,19 @@
         width: 90%;
         grid-template-columns: 1fr;
     }
+
+    .footer_box_social,
+    .subscribe {
+        grid-column: 1 / span 2;
+    }
+
+    .footer_box_help {
+      grid-column: 2;
+    }
+
+    .footer_box_discover {
+        grid-column: 1;
+      }
+      
+
 }

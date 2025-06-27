@@ -5,6 +5,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     margin-bottom: 10rem;
+    padding: 0 0 4rem;
 }
 
 .NFTCard_box{
@@ -153,7 +154,7 @@
     font-size: 1.5rem;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
     
     .NFTCard{
         width: 90%;
@@ -170,7 +171,7 @@
     }
 }
 
-@media screen and (min-device-width: 427px) and (max-device-width: 768px) {
+@media screen and (min-width: 427px) and (max-width: 768px) {
     .NFTCard{
         width: 90%;
         grid-template-columns: repeat(2, 1fr);
@@ -186,7 +187,7 @@
 }
 
 
-@media screen and (min-device-width: 770px) and (max-device-width: 1024px) {
+@media screen and (min-width: 770px) and (max-width: 1024px) {
     .NFTCard{
         grid-template-columns: repeat(2, 1fr);
     }

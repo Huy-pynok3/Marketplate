@@ -39,7 +39,7 @@
     margin-top: 1rem;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
 
     .box_category{
         width: 90%;
@@ -49,13 +49,13 @@
     }
 }
 
-@media screen and (min-device-width: 427px) and (max-device-width: 770px) {
+@media screen and (min-width: 427px) and (max-width: 770px) {
     .category{
         grid-template-columns: repeat(2,1fr);
     }
 }
 
-@media screen and (min-device-width: 772px) and (max-device-width: 1025px) {
+@media screen and (min-width: 772px) and (max-width: 1025px) {
     .category{
         grid-template-columns: repeat(3,1fr);
     }
