@@ -10,7 +10,9 @@ import Category from "./Category/Category";
 import Filter from "./Filter/Filter";
 import NFTCard from "./NFTCard/NFTCard";
 import Collection from "./Collection/Collection";
-
+import AudioLive from "./AudioLive/AudioLive";
+import FollowerTab from "./FollowerTab/FollowerTab";
+import Slider from "./Slider/Slider";
 export {
     Button,
     Footer,
@@ -24,4 +26,7 @@ export {
     Filter,
     NFTCard,
     Collection,
+    AudioLive,
+    FollowerTab,
+    Slider,
 };
