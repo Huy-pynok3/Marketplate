@@ -50,8 +50,9 @@
 
 .FollowerTabCard_box_profile_img{
     border-radius: 50%;
-    padding: 1rem;
+    padding: .2rem;
     z-index: 222;
+    position: relative;
 }
 
 .FollowerTabCard_box_profile::before{
